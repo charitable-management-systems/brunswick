@@ -4,18 +4,45 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import "./index.css"
+import heroImg from "../images/hero.jpg";
+import logo from "../images/logo.png";
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+const IndexPage = () => {
+  return (
+    <>
+    <div className="landing-container">
+      <div className="logo" style={{backgroundImage: `url(${logo})`}}>
+      </div>
+      <div className="Hero" style={{backgroundImage: `url(${heroImg})`}}>
+        <div className="Hero-text">For more than 50 years, The Brunswick Foundation has supported causes and programs that complement the business interests of Brunswick Corporation and enhance the interest of the Company's employees and the communities in which they live and work. The Sons &amp; Daughters scholarship program provides annual scholarships to children of employees of Brunswick and to children of qualified Mercury Marine and Brunswick Boat Group dealer employees. The Foundation* is pleased to support these educational opportunities.</div>
+      </div>
+      <div className="apply">
+        <div className="apply-section">
+          <strong>Company Employees</strong>
+          <p>Brunswick Employee Sons &amp; Daughters
+            <br/>(Direct employees of Brunswick Corporation)</p>
+          {/*<p>Application period:<br/>January 13 – March 16, 2020 </p>*/}
+            <Link to="/companyAwardees">Awardees</Link>
+            <Link to="/company">Learn more here</Link>
+        </div>
+        <div className="apply-section">
+          <strong>Dealership Locations</strong>
+          <p>Brunswick Dealer Sons &amp; Daughters
+            <br/>(Selling Mercury Marine or Brunswick Boat Brands)</p>
+            {/*<p>Application period:<br/>January 13 – March 16, 2020</p>*/}
+            <Link to="/dealerAwardees">Awardees</Link>
+            <Link to="/dealers">Learn more here</Link>
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+    <footer className="footer">
+      <Link to={'/terms'}>Terms of Use</Link>
+      <Link to={'/privacy'}>Privacy Policy</Link>
+      <p><sub>* In all non-U.S. locations, The Sons &amp; Daughters Scholarship Program is administered through Brunswick Corporation.</sub></p>
+    </footer>
+    </>
+  )
+}
 
 export default IndexPage

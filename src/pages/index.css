@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+* {
+  font-family: 'PT Sans Narrow', sans-serif !important;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.alert {
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+  flex: 1 1;
+  color: white;
+  background-color: rgba(31,54,103,1);
+  filter: brightness(170%);
+}
+
+.alert p {
+  margin: 0;
+}
+
+.landing-container {
+  display: flex;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  margin-left: 5vw;
+  min-height: 97vh;
+  width: 90vw;
+  flex-direction: column;
+}
+
+.logo {
+  height: 50px;
+  background-size: contain;
+  margin: 0.5rem;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(100,100,100);
+}
+
+.Hero {
+  display: flex;
+  margin-bottom: auto;
+  height: 60vh;
+  flex-basis: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Hero-text {
+  width: 75%;
+  margin-top: auto;
+  margin-left: 25%;
+  padding: 0.75rem;
+  color: white;
+  background-color: rgba(31,54,103,0.7);
+}
+
+.apply {
+  display: flex;
+  margin-top: auto;
+  padding-top: 0.5rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.apply-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  border: 1px solid #1e3566;
+  border-radius: 2px;
+  padding: 0.5rem;
+  justify-content: center;
+  transition: 300ms all ease-in-out;
+  background-color: #336699;
+  color: #FFF;
+}
+
+.apply-section:hover {
+  box-shadow: 3px 3px 1px 1px rgba(31,54,103, 0.75);
+}
+
+.apply-section > p  {
+  margin-bottom: 0.5rem;
+}
+
+.apply-section > a {
+  color: white;
+}
+
+@media all and (max-width: 800px) {
+  .apply-section {
+    width: 45%;
+  }
+  .logo {
+    height: 50px;
+    background-size: contain;
+    margin: 0.5rem;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .landing-container {
+    margin-top: 2vh;
+    min-height: 98vh;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .logo {
+    height: 50px;
+    background-size: contain;
+    margin: 0.5rem;
+    background-repeat: no-repeat;
+  }
+
+  .apply {
+    flex-direction: column;
+  }
+
+  .apply-section {
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 1.25%;
+    margin-bottom: 1.25%;
+    text-align: center;
+  }
+
+  .Hero-text {
+    width: 100%;
+    margin: 0;
+    margin-top: auto;
+  }
+
+  .landing-container {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 0.5rem;
+  border-top: 1px solid lightgrey;
+}
+
+.footer > a {
+  padding: 0 0.5rem;
+  font-size: 12px;
+}

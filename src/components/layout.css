@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
 html {
-  font-family: sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -619,4 +621,92 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.menu {
+  position: fixed;
+  right: -30vw;
+  height: calc(100vh - 75px);
+  margin-top: 75px;
+  padding: 0.25rem;
+  width: 30vw;
+  flex-direction: column;
+  text-align: center;
+  background-color: #336699;
+  color: white;
+  transition: all 300ms ease-in-out;
+  display: flex;
+  overflow-y: auto;
+}
+
+.menu--active {
+  right: 0;
+}
+
+.menu > span {
+  padding: 0.75rem 0;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.menu > a {
+  padding: 0.33rem 0;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  min-height: calc(100vh - 75px);
+  background-color: rgb(247,247,247);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 2px;
+  padding: 1rem;
+  background-color: #1e3566;
+  color: #FFF;
+}
+
+.card--alternate {
+  background-color: #fff;
+  color: #1e3566;
+}
+
+.footer {
+  display: flex;
+  padding: 0.5rem;
+  border-top: 1px solid lightgrey;
+}
+
+.footer > a {
+  padding: 0 0.5rem;
+  font-size: 12px;
+}
+
+@media all and (max-width: 420px) {
+  .menu {
+    width: 60vw;
+    right: -60vw;
+  }
+
+  .menu--active {
+    right: 0;
+  }
+}
+
+.application {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 900;
 }

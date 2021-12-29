@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-dealer-awardees-js","path":"/dealerAwardees/","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{
+    "componentChunkName": "component---src-pages-dealer-awardees-js",
+    "path": "/dealerAwardees/",
+    "result": {"pageContext":{}},
+    "staticQueryHashes": ["63159454"]}

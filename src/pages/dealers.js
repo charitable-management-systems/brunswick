@@ -8,18 +8,18 @@ const Dealers = () => (
   <Layout type="dealers">
     <div className="card card--alternate">
       <h3>How To Apply</h3>
-      <p>Begin your application by clicking on Apply.&nbsp; All required forms are also included under the Apply tab, along with a checklist to help you navigate the application process. The deadline is March 16, 2020.</p>
+      <p>Begin your application by clicking on Apply.&nbsp; All required forms are also included under the Apply tab, along with a checklist to help you navigate the application process. The deadline is March 14, 2022.</p>
     </div>
     <div className="card">
       <h3>Awards and Eligibility</h3>
       <ul>
-        <li>Parent, stepparent or guardian is employed as a full-time employee of an eligible Brunswick Corporation dealership* and has been employed at that dealership for at least one year as of March 16, 2020.</li>
+        <li>Parent, stepparent or guardian is employed as a full-time employee of an eligible Brunswick Corporation dealership* and has been employed at that dealership for at least one year as of March 14, 2022.</li>
         <li>Currently in final year of high school or a current college freshman, sophomore or junior.</li>
         <li>Grade point average of 2.0 or higher on a 4.0 scale; or an average of 70% or higher.</li>
-        <li>Entering full-time into an accredited college, university or vocational school in Canada or the United States for the fall of 2020.</li>
-        <li>23 years of age or younger (exception for military duty) as of March 16, 2020.</li>
+        <li>Entering full-time into an accredited college, university or vocational school in Canada or the United States for the fall of 2022.</li>
+        <li>23 years of age or younger (exception for military duty) as of March 14, 2022.</li>
         <li>Students selected for this award will receive a single-year scholarship -  $2,000 in the United States and Can$2,000 in Canada.</li>
-        <li>All scholarship winners will be individually notified by email of the committee's decision no later than May 1, 2020.</li>
+        <li>All scholarship winners will be individually notified by email of the committee's decision no later than May 2, 2022.</li>
         <li>Dealership spouses are not eligible to apply.</li>
         <li>Dealership employees are eligible to apply as long as they meet <strong>ALL</strong> of the above-mentioned criteria.</li>
       </ul>

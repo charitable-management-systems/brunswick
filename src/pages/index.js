@@ -1,9 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 import "./index.css"
 import heroImg from "../images/hero.jpg";
 import logo from "../images/logo.png";
@@ -21,18 +18,18 @@ const IndexPage = () => {
         <div className="apply-section">
           <strong>Company Employees</strong>
           <p>Brunswick Employee Sons &amp; Daughters
-            <br/>(Direct employees of Brunswick Corporation)</p>
-          {/*<p>Application period:<br/>January 13 – March 16, 2020 </p>*/}
-            <Link to="/companyAwardees">Awardees</Link>
-            <Link to="/company">Learn more here</Link>
+          <br/>(Direct employees of Brunswick Corporation)</p>
+          <p>Application period:<br/>January 10 – March 14, 2022 </p>
+          <Link to="/companyAwardees">Awardees</Link>
+          <Link to="/company">Learn more here</Link>
         </div>
         <div className="apply-section">
           <strong>Dealership Locations</strong>
           <p>Brunswick Dealer Sons &amp; Daughters
-            <br/>(Selling Mercury Marine or Brunswick Boat Brands)</p>
-            {/*<p>Application period:<br/>January 13 – March 16, 2020</p>*/}
-            <Link to="/dealerAwardees">Awardees</Link>
-            <Link to="/dealers">Learn more here</Link>
+          <br/>(Selling Mercury Marine or Brunswick Boat Brands)</p>
+          <p>Application period:<br/>January 10 – March 14, 2022</p>
+          <Link to="/dealerAwardees">Awardees</Link>
+          <Link to="/dealers">Learn more here</Link>
         </div>
       </div>
     </div>

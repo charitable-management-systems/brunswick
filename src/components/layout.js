@@ -46,7 +46,7 @@ const Layout = ({type, children }) => {
   `)
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
-  const notOpen = () => alert('Program closed.  We will begin accepting new applications in mid-January, 2021.')
+  const notOpen = () => alert('Applications will be accepted beginning January 10, 2022.')
 
   return (
     <div className="layout">

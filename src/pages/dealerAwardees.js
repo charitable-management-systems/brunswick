@@ -5,30 +5,32 @@ import logo from "../images/logo.png"
 
 const DealerAwardees = () => {
   const awardees = [
-    "Emma Archbold",
-    "Rachel Gallegos",
-    "Brooke McCarthy",
-    "Samantha Benish",
+    "Angelica Bochurka",
     "John Hansen",
-    "Sara McCormack",
-    "Evan Blunt",
+    "Lily Perry",
+    "Dawson Cook",
+    "Ryan Hazelton",
+    "Drew Polk",
+    "Brennen David",
+    "Reinhold Hekeler, III",
+    "Fayth Rakes",
+    "Cameron Evans",
     "Braden Herendeen",
-    "Natalie Newcombe",
-    "Carley Broekhuizen",
-    "Anna Huggins",
-    "McKenna Reedy",
-    "Mia Emberson",
-    "April Knight",
-    "Elena Uicker",
-    "Matilyn Flanagan",
-    "Carling Massel",
-    "Taylor Young",
-    "Nadia Flynn"
+    "Raylee Rich",
+    "Rachel Gallegos",
+    "Kristen Houser",
+    "Chloe Scharf",
+    "Olivia Golden",
+    "Leiloni James",
+    "Shannon Stevens",
+    "Katherine Gudzik",
+    "Payton Neubauer",
+    "Gabrielle Taylor",
   ]
   return (
     <div className="awardees">
       <img className="logo" src={logo} />
-      <h2 className="awardee-header">We are pleased to announce the 2020 Brunswick Dealer Sons &amp; Daughters Scholarship Program Awardees</h2>
+      <h2 className="awardee-header">We are pleased to announce the 2021 Brunswick Dealer Sons &amp; Daughters Scholarship Program Awardees</h2>
       <div className="awardee-grid">
         {awardees.map((awardee) => <span>{awardee}</span>)}
       </div>

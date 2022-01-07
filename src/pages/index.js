@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import "./index.css"
-import heroImg from "../images/hero.jpg";
+import heroImg from "../images/hero.png";
 import logo from "../images/logo.png";
 
 const IndexPage = () => {

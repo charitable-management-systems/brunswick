@@ -45,7 +45,7 @@
   height: 60vh;
   flex-basis: 1;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 

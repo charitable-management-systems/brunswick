@@ -45,8 +45,8 @@ const Layout = ({type, children }) => {
     }
   `)
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
-
-  const notOpen = () => alert('Applications will be accepted beginning January 10, 2022.')
+  
+  const notOpen = () => alert('The application deadline has passed, please check back in January 2023')
 
   return (
     <div className="layout">
@@ -55,8 +55,8 @@ const Layout = ({type, children }) => {
         <div className={isMenuOpen ? 'menu menu--active' : 'menu'}>
           {type === 'company' ? (
             <>
-            <a className="application" target="_blank" href="https://apply.brunswickscholarships.com/application/login">Application</a>
-              {/* <a className="application" href="" onClick={notOpen}>Application</a> */}
+            {/* <a className="application" target="_blank" href="https://apply.brunswickscholarships.com/application/login">Application</a> */}
+              <a className="application" href="" onClick={notOpen}>Application</a>
               <span>Current High School Seniors</span>
               <a target="_blank" href={company_hs_checklist}>Check List</a>
               <a target="_blank" href={company_hs_transcript}>Transcript Form</a>
@@ -73,8 +73,8 @@ const Layout = ({type, children }) => {
             </>
           ) : (
             <>
-              <a className="application" target="_blank" href="https://apply.brunswickscholarships.com/application/login">Application</a>
-              {/* <a className="application" href="" onClick={notOpen}>Application</a> */}
+              {/* <a className="application" target="_blank" href="https://apply-dealer.brunswickscholarships.com/application/login">Application</a> */}
+              <a className="application" href="" onClick={notOpen}>Application</a>
               <span>Current High School Seniors</span>
               <a target="_blank" href={dealer_hs_checklist}>Check List</a>
               <a target="_blank" href={dealer_hs_transcript}>Transcript Form</a>

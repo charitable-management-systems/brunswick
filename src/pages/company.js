@@ -8,18 +8,18 @@ const Company = () => (
   <Layout type="company">
       <div className="card card--alternate">
         <h3>How To Apply</h3>
-        <p>Begin your application by clicking on Apply.&nbsp; All required forms are also included under the Apply tab, along with a checklist to help you navigate the application process. The deadline is March 14, 2022.</p>
+        <p>Begin your application by clicking on Apply.&nbsp; All required forms are also included under the Apply tab, along with a checklist to help you navigate the application process. The deadline is March 13, 2023.</p>
       </div>
       <div className="card">
         <h3>Awards and Eligibility</h3>
         <ul>
-          <li>Parent, stepparent or guardian is employed as a full-time employee of Brunswick Corporation, or one of its divisions/subsidiaries on March 14, 2022 and who has worked for Brunswick for at least one year of continuous service in the previous five years. Employees and spouses of employees are not eligible to apply.</li>
+          <li>Parent, stepparent or guardian is employed as a full-time employee of Brunswick Corporation, or one of its divisions/subsidiaries on March 13, 2023 and who has worked for Brunswick for at least one year of continuous service in the previous five years. Employees and spouses of employees are not eligible to apply.</li>
           <li>Currently in final year of high school or a current college freshman, sophomore or junior.</li>
           <li>Grade point average of 2.0 or higher on a 4.0 scale.</li>
-          <li>Entering full-time into an accredited college, university or vocational school in fall of 2022.</li>
-          <li>23 years of age or younger (exception for military duty) as of March 14, 2022.</li>
+          <li>Entering full-time into an accredited college, university or vocational school in fall of 2023.</li>
+          <li>23 years of age or younger (exception for military duty) as of March 13, 2023.</li>
           <li>Students selected for this award will receive a single-year scholarship up to $3,000.</li>
-          <li>All scholarship winners will be individually notified by email of the committee’s decision no later than May 2, 2022.</li>
+          <li>All scholarship winners will be individually notified by email of the committee’s decision no later than May 2, 2023.</li>
         </ul>
       </div>
       <div className="card card--alternate">

@@ -5,32 +5,38 @@ import logo from "../images/logo.png"
 
 const DealerAwardees = () => {
   const awardees = [
-    "Angelica Bochurka",
-    "John Hansen",
-    "Lily Perry",
-    "Dawson Cook",
-    "Ryan Hazelton",
-    "Drew Polk",
-    "Brennen David",
-    "Reinhold Hekeler, III",
-    "Fayth Rakes",
-    "Cameron Evans",
-    "Braden Herendeen",
-    "Raylee Rich",
-    "Rachel Gallegos",
-    "Kristen Houser",
+    "Savannah Adamski",
+    "Julia Ellis",
+    "McKenna Reedy",
+    "Hannah Altman",
+    "Olivia Francisco",
     "Chloe Scharf",
-    "Olivia Golden",
-    "Leiloni James",
-    "Shannon Stevens",
-    "Katherine Gudzik",
+    "Ellyson Bradford",
+    "Rachel Gallegos",
+    "Kali Siembor",
+    "Carley Broekhuizen",
+    "Victor Gelfuso",
+    "Jenna Taylor",
+    "Reagan Broekhuizen",
+    "Ryan Hazelton",
+    "Kelsie Vann",
+    "Triton Chandler",
+    "Cassidy Maneval",
+    "Tabitha Varnell",
+    "Michael Ciolino",
+    "Carling Massel",
+    "Rhea Warner",
+    "Maria Dehn",
+    "Cheyanne Mihalinec",
+    "Matthew Watts",
+    "",
     "Payton Neubauer",
-    "Gabrielle Taylor",
+    "",
   ]
   return (
     <div className="awardees">
       <img className="logo" src={logo} />
-      <h2 className="awardee-header">We are pleased to announce the 2021 Brunswick Dealer Sons &amp; Daughters Scholarship Program Awardees</h2>
+      <h2 className="awardee-header">We are pleased to announce the 2022 Brunswick Dealer Sons &amp; Daughters Scholarship Program Awardees</h2>
       <div className="awardee-grid">
         {awardees.map((awardee) => <span>{awardee}</span>)}
       </div>

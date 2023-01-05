@@ -5,62 +5,62 @@ import logo from "../images/logo.png"
 
 const CompanyAwardees = () => {
 	const awardees = [
-		"Luca Andersen",
-		"Jaden Gosse",
-		"Rachel Nackers",
-		"Grace Baker",
-		"Jaden Hackbarth",
-		"Cashel O’Connor",
-		"Sebastian Barton",
-		"Karl Hahn",
-		"Luke Overton",
-		"Julia Bettley",
-		"Isabella Hanmann",
-		"Justin Padron",
-		"Mikayla Brainard",
-		"Megan Henker",
-		"Saira Perez-Rodriguez",
-		"Matthew Bringle",
-		"Andrea Hernandez-Gomez",
-		"Thomas Pyle",
-		"Alexia Brown",
-		"Jayda Janeczko",
-		"Seth Raber",
-		"Sara Chemi",
-		"Jaiden Kasaval",
-		"Emma Reid",
-		"Emily Cunningham",
-		"Lindsey Keller",
-		"Lana Rummel",
-		"Alexander Dahl",
-		"Benjamin Kopper",
-		"Alexandria Trajkovski",
-		"Sean Druck II",
-		"Dallas Kreisa",
-		"Alex Turner",
-		"Alexis Evans",
+		"Joshua Abello",
+		"Katelyn Entenmann",
 		"Daunte Leiran",
-		"Paige Vandegrift",
+		"Marie-Catherine Alain",
 		"Mason Galler",
-		"Cormac Madigan",
-		"Grant Webb",
-		"Jessica Glaszczak",
-		"Grace Marchello",
-		"Noah Wood",
-		"",
+		"David Mats",
+		"Grace Baker",
+		"Moriah Geiser",
+		"Jackson Mckinney",
+		"Sabastian Barton",
+		"Aliya Gerber",
 		"Mario Cesar Moreno Melo",
+		"Ethan Batchelder",
+		"Jessica Glaszczak",
+		"Fernando Moreno Melo",
+		"Brooke Bayless",
+		"Ana Hernandez Name",
+		"Jesse Oloski",
+		"Julia Bettley",
+		"Elisa Hernandez-Gomez",
+		"Justin Padron",
+		"Hannah Bhaskaran",
+		"Larissa Iacobescu",
+		"Marghret Race",
+		"Mia Burge",
+		"Jayda Janeczko",
+		"Kaitlyn Radavich",
+		"Emerson Cotter",
+		"Abigail Jason",
+		"Madison Rempalski",
+		"Alexander Dahl",
+		"Courtney Kaufman",
+		"Jenna Roth",
+		"Shayley Dauphinee",
+		"Lindsey Keller",
+		"Saayda Sajid",
+		"Mckenzie Davis",
+		"Makena Kenyon",
+		"Max Springer",
+		"Wyatt Draves",
+		"Aleczander Krack",
+		"Ella Webb",
+		"",
+		"Dallas Kreisa",
 		"",
 	];
 
-  return (
-    <div className="awardees">
-      <img className="logo" src={logo} />
-      <h2 className="awardee-header">We are pleased to announce the 2021 Brunswick Company Sons &amp; Daughters Scholarship Program Awardees</h2>
-      <div className="awardee-grid">
-        {awardees.map((awardee) => <span>{awardee}</span>)}
-      </div>
-    </div>
-  );
+	return (
+		<div className="awardees">
+			<img className="logo" src={logo} />
+			<h2 className="awardee-header">We are pleased to announce the 2022 Brunswick Company Sons &amp; Daughters Scholarship Program Awardees</h2>
+			<div className="awardee-grid">
+				{awardees.map((awardee) => <span>{awardee}</span>)}
+			</div>
+		</div>
+	);
 };
 
 export default CompanyAwardees

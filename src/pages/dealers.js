@@ -13,7 +13,7 @@ const Dealers = () => (
     <div className="card">
       <h3>Awards and Eligibility</h3>
       <ul>
-        <li>Parent, stepparent or guardian is employed as a full-time employee of an eligible Brunswick Corporation dealership* and has been employed at that dealership for at least one year as of March 13, 2023.</li>
+        <li>Parent, stepparent or guardian is employed as a full-time employee of an eligible Brunswick Corporation dealership or an affiliate dealer business* and has been employed at that dealership for at least one year as of March 13, 2023.</li>
         <li>Currently in final year of high school or a current college freshman, sophomore or junior.</li>
         <li>Grade point average of 2.0 or higher on a 4.0 scale; or an average of 70% or higher.</li>
         <li>Entering full-time into an accredited college, university or vocational school in Canada or the United States for the fall of 2023.</li>
@@ -59,8 +59,9 @@ const Dealers = () => (
         Fax:  630.428.2695
       </p>
       <p>info@brunswickscholarships.com</p>
-      <p>*Questions regarding dealer eligibility may be directed to a Dealer Advantage Specialist at 877.462.3884</p>
-    </div>
+      <p>*Eligible dealers are those who have been a Brunswick sales or service dealer for at least one year and are currently a dealer in good standing with all the Brunswick brands they sell or service. Provided an eligible Brunswick sales or service dealer has satisfied the requirements in the preceding sentence, employees who work for an affiliate dealer business are also eligible to participate in the Scholarship Program. An affiliate dealer business means a subsidiary, affiliate, sister or similar company under common ownership by or with the eligible Brunswick sales or service dealer.</p>
+      <p>Questions regarding dealer eligibility may be directed to a Dealer Advantage Specialist at 877.462.3884</p>
+    </div>  
   </Layout>
 )
 

@@ -19,7 +19,7 @@ const IndexPage = () => {
           <strong>Company Employees</strong>
           <p>Brunswick Employee Sons &amp; Daughters
           <br/>(Direct employees of Brunswick Corporation)</p>
-          <p>Application period:<br/>January 9 – March 13, 2023</p>
+          <p>Application period:<br/>January 13 – March 17, 2025</p>
           <Link to="/companyAwardees">Awardees</Link>
           <Link to="/company">Learn more here</Link>
         </div>
@@ -27,7 +27,7 @@ const IndexPage = () => {
           <strong>Dealership Locations</strong>
           <p>Brunswick Dealer Sons &amp; Daughters
           <br/>(Selling Mercury Marine or Brunswick Boat Brands)</p>
-          <p>Application period:<br/>January 9 – March 13, 2023</p>
+          <p>Application period:<br/>January 13 – March 17, 2025</p>
           <Link to="/dealerAwardees">Awardees</Link>
           <Link to="/dealers">Learn more here</Link>
         </div>
@@ -36,7 +36,6 @@ const IndexPage = () => {
     <footer className="footer">
       <Link to={'/terms'}>Terms of Use</Link>
       <Link to={'/privacy'}>Privacy Policy</Link>
-      <p><sub>* In all non-U.S. locations, The Sons &amp; Daughters Scholarship Program is administered through Brunswick Corporation.</sub></p>
     </footer>
     </>
   )

@@ -5,38 +5,34 @@ import logo from "../images/logo.png"
 
 const DealerAwardees = () => {
   const awardees = [
-    "Savannah Adamski",
-    "Julia Ellis",
-    "McKenna Reedy",
-    "Hannah Altman",
-    "Olivia Francisco",
+    "Edmund Ackell",
+    "Carleena Michelle Deforges",
     "Chloe Scharf",
-    "Ellyson Bradford",
-    "Rachel Gallegos",
+    "Jayden Ainley",
+    "Sophia DePaul",
     "Kali Siembor",
-    "Carley Broekhuizen",
-    "Victor Gelfuso",
-    "Jenna Taylor",
-    "Reagan Broekhuizen",
-    "Ryan Hazelton",
-    "Kelsie Vann",
-    "Triton Chandler",
-    "Cassidy Maneval",
-    "Tabitha Varnell",
-    "Michael Ciolino",
-    "Carling Massel",
+    "Emersen Berndt",
+    "Avarie Goodwin",
+    "JJ Vander Loop",
+    "Brendan Birschbach",
+    "Ty Hatler",
     "Rhea Warner",
-    "Maria Dehn",
-    "Cheyanne Mihalinec",
-    "Matthew Watts",
-    "",
-    "Payton Neubauer",
-    "",
-  ]
+    "Lily Boutelle",
+    "Sydney Kokot",
+    "Jenna Wildeman",
+    "Reagan Broekhuizen",
+    "Carollann McClelland",
+    "Joshua Wilmsen",
+    "Michael Ciolino",
+    "Natalie Miles",
+    "Evan Windorski",
+    "London Phillippo",
+  ];
+
   return (
     <div className="awardees">
       <img className="logo" src={logo} />
-      <h2 className="awardee-header">We are pleased to announce the 2022 Brunswick Dealer Sons &amp; Daughters Scholarship Program Awardees</h2>
+      <h2 className="awardee-header">We are pleased to announce the 2024 Brunswick Dealer Sons &amp; Daughters Scholarship Program Awardees</h2>
       <div className="awardee-grid">
         {awardees.map((awardee) => <span>{awardee}</span>)}
       </div>

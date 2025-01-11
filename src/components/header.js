@@ -4,7 +4,7 @@ import React from "react"
 import logo from "../images/logo.png"
 import "./header.css"
 
-const Header = ({ siteTitle, onMenuClick }) => (
+const Header = ({ application }) => (
 <>
   <header className="header">
       <Link
@@ -16,9 +16,11 @@ const Header = ({ siteTitle, onMenuClick }) => (
       >
         <img className="logo" src={logo} />
       </Link>
-      <div className="icon" onClick={onMenuClick}>
-        Apply
-      </div>
+      <a className="application" target="_blank" href={ application === 'dealers' ? 'https://apply-dealer.brunswickscholarships.com/application/login' : 'https://apply.brunswickscholarships.com/application/login'}>
+        <div className="icon">
+          Apply
+        </div>
+      </a>
   </header>
   </>
 )

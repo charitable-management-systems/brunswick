@@ -14,7 +14,7 @@ const Dealers = () => (
   <Layout type="dealers">
     <div className="card card--alternate">
       <h3>How To Apply</h3>
-      <p>Begin your application by clicking on Apply tab above. The deadline to submit your application is March 17, 2025.  Completing this application does not guarantee that you will receive the scholarship.
+      <p>Begin your application by clicking on Apply tab above. The deadline to submit your application is March 16, 2026.  Completing this application does not guarantee that you will receive the scholarship.
         A <a href={dealer_checklist}>checklist</a> has been provided to help you navigate the application process.</p>
       <ul>
         <li>
@@ -32,13 +32,13 @@ const Dealers = () => (
     <div className="card">
       <h3>Awards and Eligibility</h3>
       <ul>
-        <li>Parent, stepparent or guardian is employed as a full-time employee of an eligible Brunswick Corporation dealership or an affiliate dealer business* and has been employed at that dealership for at least one year as of March 17, 2025.</li>
+        <li>Parent, stepparent or guardian is employed as a full-time employee of an eligible Brunswick Corporation dealership or an affiliate dealer business* and has been employed at that dealership for at least one year as of March 16, 2026.</li>
         <li>Currently in final year of high school or a current college freshman, sophomore or junior.</li>
         <li>Grade point average of 2.0 or higher on a 4.0 scale; or an average of 70% or higher.</li>
-        <li>Entering full-time into an accredited college, university or vocational school in Canada or the United States for the fall of 2025.</li>
-        <li>23 years of age or younger (exception for military duty) as of March 17, 2025.</li>
+        <li>Entering full-time into an accredited college, university or vocational school in Canada or the United States for the fall of 2026.</li>
+        <li>23 years of age or younger (exception for military duty) as of March 16, 2026.</li>
         <li> Students selected for this award will receive a single-year scholarship up to $2,000.</li>
-        <li>All scholarship winners will be individually notified by email of the committee's decision no later than May 12, 2025.</li>
+        <li>All scholarship winners will be individually notified by email of the committee's decision no later than May 11, 2026.</li>
         <li>Dealership spouses are not eligible to apply.</li>
         <li>Dealership employees are eligible to apply as long as they meet <strong>ALL</strong> of the above-mentioned criteria.</li>
       </ul>
